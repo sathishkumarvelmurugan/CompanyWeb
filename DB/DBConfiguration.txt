@@ -1,0 +1,7 @@
+Create the database from this script of DB creation text file --DB - Creation.sql
+Create the Table from this script of Table Creation text file -- TableCreation.sql
+create the login / change the login of sa with pwd:Temp!123
+
+same configure through webapi application reference on EF in webconfigfile and DataLayer application
+once changed the reference , kindly change the servername in connection string according to your machine name 
+eg: rename this name (DESKTOP-D8CJPK2\DESKTOPD8CJPK2) to respective your servername.
