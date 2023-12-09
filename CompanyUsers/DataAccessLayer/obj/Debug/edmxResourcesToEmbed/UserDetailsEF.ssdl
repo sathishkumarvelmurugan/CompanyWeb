@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UserRegistrationModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'UserRegistration.dbo.UserDetails' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="UserDetails">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="UserName" />
+      <PropertyRef Name="Mail" />
+      <PropertyRef Name="PhoneNumber" />
+      <PropertyRef Name="IsActive" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="PhoneNumber" Type="int" Nullable="false" />
+    <Property Name="Skillsets" Type="nvarchar" MaxLength="50" />
+    <Property Name="Hobby" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreatedDate" Type="datetime" />
+    <Property Name="ModifiedBy" Type="nvarchar" MaxLength="50" />
+    <Property Name="ModifiedDate" Type="datetime" />
+    <Property Name="IsActive" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="UserRegistrationModelStoreContainer">
+    <EntitySet Name="UserDetails" EntityType="Self.UserDetails" store:Type="Tables" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+[UserDetails].[ID] AS [ID], 
+[UserDetails].[UserName] AS [UserName], 
+[UserDetails].[Mail] AS [Mail], 
+[UserDetails].[PhoneNumber] AS [PhoneNumber], 
+[UserDetails].[Skillsets] AS [Skillsets], 
+[UserDetails].[Hobby] AS [Hobby], 
+[UserDetails].[CreatedBy] AS [CreatedBy], 
+[UserDetails].[CreatedDate] AS [CreatedDate], 
+[UserDetails].[ModifiedBy] AS [ModifiedBy], 
+[UserDetails].[ModifiedDate] AS [ModifiedDate], 
+[UserDetails].[IsActive] AS [IsActive]
+FROM [dbo].[UserDetails] AS [UserDetails]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

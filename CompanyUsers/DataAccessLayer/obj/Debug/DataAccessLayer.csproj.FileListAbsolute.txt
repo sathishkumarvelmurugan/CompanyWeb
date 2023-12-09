@@ -1,0 +1,10 @@
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\bin\Debug\EntityFramework.dll
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\bin\Debug\EntityFramework.xml
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+G:\Projects\sourcecode\CompanyWeb\CompanyUsers\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
